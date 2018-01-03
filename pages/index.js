@@ -15,7 +15,7 @@ class Home extends Component {
         <h3>Home</h3>
         <p className='name'>Hello, {this.state.name}</p>
         <br />
-        <input type='input' onChange={this.changeName} value={this.state.name} />
+        <input className="nameInput" type='input' onChange={this.changeName} value={this.state.name} />
 
         <style jsx>{`
         .name{

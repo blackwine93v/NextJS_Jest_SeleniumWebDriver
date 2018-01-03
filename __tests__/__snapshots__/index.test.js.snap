@@ -20,7 +20,7 @@ exports[`With Snapshot Testing App shows "Hello, Vuong" 1`] = `
     className="jsx-1405864837"
   />
   <input
-    className="jsx-1405864837"
+    className="jsx-1405864837 nameInput"
     onChange={[Function]}
     type="input"
     value="Vuong"
