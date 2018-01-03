@@ -13,9 +13,15 @@ class Home extends Component {
     return (
       <Layout>
         <h3>Home</h3>
-        <p>Hello, {this.state.name}</p>
+        <p className='name'>Hello, {this.state.name}</p>
         <br />
         <input type='input' onChange={this.changeName} value={this.state.name} />
+
+        <style jsx>{`
+        .name{
+          color: blue;
+        }
+        `}</style>
       </Layout>
     )
   }
