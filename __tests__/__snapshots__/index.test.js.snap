@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App shows "Hello, Vuong" 1`] = `
+<div>
+  <header>
+    This is header
+  </header>
+  <h3
+    className="jsx-1405864837"
+  >
+    Home
+  </h3>
+  <p
+    className="jsx-1405864837 name"
+  >
+    Hello, 
+    Vuong
+  </p>
+  <br
+    className="jsx-1405864837"
+  />
+  <input
+    className="jsx-1405864837"
+    onChange={[Function]}
+    type="input"
+    value="Vuong"
+  />
+  <footer>
+    This is footer
+  </footer>
+</div>
+`;
